@@ -7,6 +7,7 @@ blog({
   description: "software developer",
   avatar: "avatar.jpg",
   avatarClass: "rounded-full",
+  background: "#f9f9f9",
   links: [
     { title: "GitHub", url: "https://github.com/matiasleidemer" },
     { title: "Twitter", url: "https://twitter.com/matiasleidemer" },
