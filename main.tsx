@@ -7,7 +7,7 @@ import "https://esm.sh/prismjs@1.29.0/components/prism-ruby";
 blog({
   title: "matiasleidemer.dev",
   description: "I write code that writes code.",
-  avatar: "avatar.jpg",
+  avatar: "avatar.webp",
   avatarClass: "rounded-full",
   author: "Matias Leidemer",
   dateFormat: (date) =>
