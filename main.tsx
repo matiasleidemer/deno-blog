@@ -15,6 +15,7 @@ blog({
   links: [
     { title: "GitHub", url: "https://github.com/matiasleidemer" },
     { title: "Twitter", url: "https://twitter.com/matiasleidemer" },
+    { title: "Linkedin", url: "https://www.linkedin.com/in/matiasleidemer/" },
   ],
   middlewares: [ga("G-V2GGPKXXC3")],
 });
