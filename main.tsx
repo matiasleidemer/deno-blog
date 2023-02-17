@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import blog, { ga } from "https://deno.land/x/blog@0.5.0/blog.tsx";
+import blog, { ga } from "deno_blog/main/blog.tsx";
 
 import "https://esm.sh/prismjs@1.29.0/components/prism-ruby";
 
@@ -10,6 +10,7 @@ blog({
   avatar: "avatar.webp",
   avatarClass: "rounded-full",
   author: "Matias Leidemer",
+  readtime: true,
   dateFormat: (date) =>
     new Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(date),
   lang: "en",
